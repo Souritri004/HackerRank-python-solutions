@@ -1,0 +1,14 @@
+#!/bin/python3
+
+import sys
+
+
+n = int(input().strip())
+for a in range(n):
+    gr= int(input().strip())
+    
+    if gr >= 38:
+        if gr % 5 > 2:
+            while gr % 5 != 0: 
+                gr += 1
+    print(gr)
