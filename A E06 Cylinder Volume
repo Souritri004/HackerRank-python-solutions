@@ -1,0 +1,6 @@
+#!/bin/python3
+
+rad=int(input())
+height=int(input())
+v=3.14*rad*rad*height
+print(v)
